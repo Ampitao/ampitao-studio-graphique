@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ampitao - Studio graphique</title>
+    <link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--Side nav bloc-->
+<!-- <div id="side-nav">
+	<span class="index-menu">01</span>
+	<input type="radio" class="side-nav" id="side-accueil" value="accueil" name="side-nav" checked>
+	<label for="accueil">ACCUIEL</label>
+	<input type="radio" class="side-nav" id="side-portfolio" value="portfolio" name="side-nav">
+	<label for="portfolio">PORTFOLIO</label>
+	<input type="radio" class="side-nav" id="side-contact" valuie="contact" name="side-nav">
+	<label for="contact">CONTACT</label>
+</div> -->
+<!--Content bloc-->
+<section class="accueil-container scroll-box" id="accueil">
+	<!-- Menu & logo -->
+	<div class="nav-box">
+		<div class="logoAmpitao">
+			<a href="#accueil"><img src="./resources/logo-ampitao-blanc.png" class="logo" alt="logoAmpitao"></a>
+		</div>
+		<nav class="nav-bar">
+			<ul class="nav-list">
+				<li class="nav-link"><a href="#accueil">Accueil</a></li>
+				<li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+				<li class="nav-link"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--Accueil bloc-->
+	<div class="accueil-box" >
+		<!-- Accueil contents -->
+		<div class="content-container">
+			<div class="content box">
+				<h1 class="ampitao">Ampitao</h1>
+				<div class="description">
+					<p>Lorem ipsum dolor</p>
+					<span class="plus"><a href="#contact">EN SAVOIR PLUS <i class="fa-solid fa-arrow-right"></i></a></span>
+				</div>
+			</div>
+			<div class="social-media box">
+				<a href="https://web.facebook.com/ampitao.studiographique" target="blank"><i class="fab fa-facebook-f icon-media"></i></a>
+				<i class="fab fa-linkedin-in icon-media"></i>
+				<i class="fab fa-whatsapp icon-media"></i>
+				<a href="#portfolio"><img src="/resources/mouse-bottom-icon.svg" alt="scroll-down" class="mouse-portfolio"></a>
+			</div>
+			<span class="lettreA">a</span>
+			
+		</div>
+	</div>
+</section>
+<!-- Portfolio bloc -->
+<section class="portfolio-container scroll-box" id="portfolio">
+	<div class="portfolio-title-box">
+		<p class="portfolio-title section-title" data-text="Portfolio">Portfolio</p>
+	</div>
+	<div class="portfolio-contents">
+		<img src="/resources/w.jpg" class="img index-01" alt="The-Hiena">
+		<div class="informations">
+			<h2 class="clt-id">Thé Hiena</h2>
+			<p class="services">Affiche</p>
+			<ul class="details">
+				<li>Branding</li>
+				<li>Packaging</li>
+				<li>Creation</li>
+			</ul>
+		</div>
+	</div>
+	<div class="mouse-up">
+		<a href="#accueil"><img src="/resources/mouse-top-icon-blue.svg" alt="scroll-up" class="mouse-accueil"></a>
+	</div>
+	<div class="mouse-down">
+		<a href="#contact"><img src="/resources/mouse-bottom-icon-blue.svg" alt="scroll-up" class="mouse-accueil"></a>
+	</div>
+</section>
+<section class="contact-container scroll-box" id="contact">
+	<div class="contact-title-box">
+		<p class="contact-title section-title" data-text="contact">Contact</p>
+	</div>
+	<div class="contact-contents-box">
+		<div class="contact-contents">
+			<div class="contact-info-box">
+				<i class="fa-solid fa-envelope icon-contact"></i>
+				<p>Email <br>contact.ampitao@gmail.com</p>
+			</div>
+			<div class="contact-info-box">
+				<i class="fa-solid fa-phone icon-contact"></i><p class="phone">Téléphone <br>032 64 793 25</p>
+			</div>
+			<div class="contact-info-box">
+				<i class="fa-solid fa-location-dot icon-contact"></i><p class="place">Adresse <br>LOT III A 44 IBIS ANTANANARIVO VI</p>
+			</div>
+		</div>
+		<div class="social-media box contact-media">
+			<a href="#portfolio"><img src="/resources/mouse-top-icon.svg" alt="scroll-up" class="mouse-up-portfolio"></a>
+			<a href="https://web.facebook.com/ampitao.studiographique" target="blank"><i class="fab fa-facebook-f icon-media"></i></a>
+			<i class="fab fa-linkedin-in icon-media"></i>
+			<i class="fab fa-whatsapp icon-media"></i>
+			
+		</div>
+	</div>
+</section>
+</body>
+</html>
