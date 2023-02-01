@@ -152,6 +152,7 @@ a:visited{
     background-image: url("../resources/bg-the-hiena.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--main-darkblue);
     height: 100vh;
 }
 .section-title{
