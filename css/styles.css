@@ -117,6 +117,7 @@ a:visited{
 .mouse-portfolio{
     width: 20px;
     margin-top: 10rem;
+    animation: loopDown 3s cubic-bezier(.17,.67,.83,.67) infinite;
 }
 .plus{
     margin-top: 1.5rem;
@@ -196,6 +197,7 @@ a:visited{
     width: 20px;
     top: -59%;
     right: -94%;
+    animation: loopUp 3s infinite;
 }
 .mouse-up img{
     width: 20px;
@@ -205,6 +207,7 @@ a:visited{
     width: 20px;
     top: 0%;
     right: -94%;
+    animation: looDownContact 3s infinite;
 }
 .mouse-down img{
     width: 20px;
@@ -260,4 +263,37 @@ a:visited{
     position: absolute;
     width: 20px;
     margin-top: -10rem;
+    animation: loopupPf 3s infinite;
+}
+@keyframes loopDown{
+    to{
+        margin-top: 15rem;
+    }
+    from{
+        margin-top: 10rem;
+    }
+}
+@keyframes loopUp{
+    to{
+        top: -65%;
+    }
+    from{
+        top: -59%;
+    }
+}
+@keyframes looDownContact{
+    to{
+        top: 8%;
+    }
+    from{
+        top: 0%;
+    }
+}
+@keyframes loopupPf{
+    to{
+        margin-top: -15rem;
+    }
+    from{
+        margin-top: -10rem;
+    }
 }
