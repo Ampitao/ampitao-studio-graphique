@@ -197,11 +197,17 @@ a:visited{
     top: -59%;
     right: -94%;
 }
+.mouse-up img{
+    width: 20px;
+}
 .mouse-down{
     position: relative;
     width: 20px;
     top: 0%;
     right: -94%;
+}
+.mouse-down img{
+    width: 20px;
 }
 /* Edit Contact box */
 .contact-container{
